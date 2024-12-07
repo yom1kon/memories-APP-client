@@ -56,8 +56,10 @@
     ]
   },
   "browser": {
-  "crypto": "crypto-browserify",
-  "stream": "stream-browserify"
-}
-
+    "crypto": "crypto-browserify",
+    "stream": "stream-browserify"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  }
 }
